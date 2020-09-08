@@ -15,7 +15,7 @@ user.premium = false;
 const keys = Object.keys(user);
 // Write code under this line
 for (const key of keys) {
-  const message = "user[key] + \n";
+  message += `${key}: ${user[key]} + \n`;
 }
 
 console.log(message);
